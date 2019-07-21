@@ -1,0 +1,31 @@
+body {
+    background-color: azure;
+}
+
+p {
+    background-color: blue;
+}
+
+#kasia {
+    background-color: hotpink;
+}
+
+.lorak {
+    color: lightgreen;
+}
+
+ul a {
+    color: #ff0023;
+}
+
+a > span {
+    background-color: lightblue;
+}
+
+li#pierwszy ~ li {
+    background-color: turquoise;
+}
+
+li#pierwszy + li {
+    background-color: blueviolet; 
+}
