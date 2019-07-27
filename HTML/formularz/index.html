@@ -33,7 +33,7 @@
 
         <label for="gender">Mężczyzna</label>
         <input type="radio" name="gender" id="mężczyzna">
-        
+
         <label for="gender">Kobieta</label>
         <input type="radio" name="gender" id="kobieta">
         <br>
@@ -54,4 +54,124 @@
 </html>
 
 
+.outer {
+    width: 600px;
+    height: 600px;
+    background-color: #a6a9b6;
+    position: absolute;
+    border: 5px solid #666360;
+  }
+  
+  .inner {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  
+  #first {
+    background-color: red;
+    left:0px;
+    top: 0px;
+  }
+  
+  #second {
+    background-color: blue;
+    left:200px;
+    top:-200px;
+  }
+  
+  #third {
+    background-color: green;
+    left:400px;
+    top:-400px;
+  }
+  
+  #fourth {
+    background-color: yellow;
+    top:-400px;
+  }
+  
+  #fifth {
+    background-color: black;
+    top:-600px; 
+    left:200px;
+  }
+  
+  #sixth {
+    background-color: orange;
+    top: -800px;
+    left: 400px;
+  }
+  
+  #seventh {
+    background-color: purple;
+    top: -800px;
+  }
+  
+  #eighth {
+    background-color: grey;
+    top:-1000px;
+    left:200px;
+  }
+  
+  #ninth {
+    background-color: pink;
+    top: -1200px;
+    left:400px;
+  }
+  
+  div.circle {
+    -moz-border-radius: 50px/50px;
+    -webkit-border-radius: 50px 50px;
+    border-radius: 50px/50px;
+    border: solid 10px white;
+    width: 50px;
+    height: 50px;
+
+
+
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<div class="outer">
+
+    <div class="inner" id="first">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="second">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="third">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="fourth">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="fifth">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="sixth">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="seventh">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="eighth">
+      <div class="circle"></div>
+    </div>
+    <div class="inner" id="ninth">
+      <div class="circle"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
 
