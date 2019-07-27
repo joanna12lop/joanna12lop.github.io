@@ -1,0 +1,10 @@
+@media screen and (max-width: 400px) {
+
+    #gallery {
+        width: 100%;
+    }
+
+    figure {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+img {
+    height: 300px;
+    margin-bottom: 300px;
+    transition: all 0.5s;
+    transform-origin: 50% 10%;
+}
+
+.rotate img:hover {
+    transform: rotate(45deg);
+}
+
+.translate img:hover {
+    transform: translate(450px, 100px);
+}
+
+.scale img:hover {
+    transform: scale(0.8);
+}
+
+.animation img {
+    animation-name:  resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 450px;
+    }
+
+    50% {
+        height: 100px;
+        transform: translateY(150px);
+        transform: rotate(180deg);
+    }
+
+    25% {
+        border: 35px solid salmon;
+    }
+}
